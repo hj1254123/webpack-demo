@@ -22,6 +22,13 @@ module.exports = {
         port: 8081, //端口号
         compress: true //开发服务器是否启动gzip等压缩
     },
+    // 配置组件
+    module: {
+        rules: [{
+            test: /\.css$/,
+            use: ['style-loader', 'css-loader']
+        }]
+    },
     // 插件
     plugins: [
         // 构建时自动清理dist目录

@@ -1,6 +1,7 @@
 // 这是ES6的语法，导入了lodash，并赋值给了 _
 import _ from 'lodash'
 import print from './print.js'
+import './style.css'
 
 function component() {
     var element = document.createElement('div')
