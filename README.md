@@ -1,2 +1,2 @@
 # webpack-demo
-阅读官方文档，熟悉webpack使用
+阅读[官方文档](https://webpack.docschina.org/guides)，熟悉webpack使用
