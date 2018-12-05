@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/hj1254123/webpack-demo#readme",
   "devDependencies": {
+    "css-loader": "^1.0.1",
+    "style-loader": "^0.23.1",
     "webpack": "^4.27.0",
     "webpack-cli": "^3.1.2"
   },
