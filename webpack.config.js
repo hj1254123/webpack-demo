@@ -10,6 +10,12 @@ module.exports = {
         app: './src/index.js',
         print: './src/print.js'
     },
+    // 启动追踪源文件功能，即：报错后准确查看错误位置。注意：仅用于开发模式。
+    devtool: 'inline-source-map',
+    devServer: {
+        // 这里告诉dev server,在哪里查找文件
+        contentBase: './dist'
+    },
     // 插件
     plugins: [
         // 构建时自动清理dist目录
