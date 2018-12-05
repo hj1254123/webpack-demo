@@ -5,6 +5,8 @@ import _ from 'lodash'
 import './style.css'
 // - 载入图片，需要 npm install --save-dev file-loader
 import jiandan from './jiandan.png'
+// 导入xml，需要xml-loader，csv|tsv需要csv-loader
+import Data from './data.xml'
 
 function componetn() {
     var element = document.createElement('div')
@@ -16,6 +18,8 @@ function componetn() {
     var myImg = new Image();
     myImg.src = jiandan;
     element.appendChild(myImg);
+
+    console.log(Data);
     return element
 }
 document.body.appendChild(componetn())
