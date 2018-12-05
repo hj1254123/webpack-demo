@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'FZCYJW';
+    src: url('./FZCYJW.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello {
     background: pink;
+    font-family: 'FZCYJW';
+    font-size: 28px;
 }

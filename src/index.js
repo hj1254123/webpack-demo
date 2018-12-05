@@ -9,7 +9,7 @@ import jiandan from './jiandan.png'
 function componetn() {
     var element = document.createElement('div')
     // 这里就可以使用了
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ')
+    element.innerHTML = _.join(['Hello', 'webpack', '简体测试'], ' ')
     // 该hello样式在style.css
     element.classList.add('hello')
     // 添加图片

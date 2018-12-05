@@ -27,6 +27,13 @@ module.exports = {
                 use: [
                     'file-loader'
                 ]
+            },
+            // 字体
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                use: [
+                    'file-loader'
+                ]
             }
         ]
     }
