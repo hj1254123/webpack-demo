@@ -1,0 +1,28 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "阅读[官方文档](https://webpack.docschina.org/guides)，熟悉webpack使用",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hj1254123/webpack-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hj1254123/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/hj1254123/webpack-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
